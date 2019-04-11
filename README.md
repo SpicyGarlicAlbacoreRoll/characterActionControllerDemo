@@ -1,5 +1,5 @@
-LATEST BUILD: Version 0.2
-  RELEASE DATE: 4/8/19
+LATEST BUILD: Version 0.3
+  RELEASE DATE: 4/11/19   (Vers. 0.02 4/8/19)
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 Welcome! This is a webgl build of a character action controller I'm developing in Unity.\
@@ -9,12 +9,24 @@ Demo Link: https://spicygarlicalbacoreroll.github.io/characterActionControllerDe
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+CHANGELOG:\
+
+VERSION 0.3\
+
+  Implemented a simple Finite State Machine, which will be used for the combo system. Currently only
+has player freeze their position for 0.3 seconds with each attack state. Will add hitbox/hurtbox for visual debugging
+attacks (whenever I get around to implementing actual assets)\
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
 CONTROLS: (XBOX ONE controllers should be supported in browser, at least on Linux in Firefox)\
   MOVEMENT: WASD Controls / Left Joystick\
   JUMP/DOUBLEJUMP:  Spacebar/A\
   DASH:     Hold LEFT SHIFT while moving in direction (has couple second cooldown)\
   CAMERA:   Mouse / Right Joystick  (press M to toggle between them)\
-  RESET POSITION:   R
+  RESET POSITION:   R\
+  HEAVY/LIGHT ATTACK: F / G (Only freezes player,no animations or hit/hurt boxes)
   
 /////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -31,6 +43,8 @@ PROJECT GOALS . . .
   - Hit and Hurt boxes
     
   - Streamlined method of creating combos\
-    -Implement via Finite State Machine   [IN PROGRESS]
+    -Implement via Finite State Machine   [WORKING, IN PROGRESS]
 
+  - Add enemies to showcase features and playtest
+  
 /////////////////////////////////////////////////////////////////////////////////////////////
