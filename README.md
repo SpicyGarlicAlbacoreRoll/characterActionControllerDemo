@@ -1,6 +1,6 @@
 
 
-LATEST BUILD: Version 0.4 RELEASE DATE: 4/11/19 (Vers. 0.02 4/8/19) /////////////////////////////////////////////////////////////////////////////////////////////
+LATEST BUILD: Version 0.4 RELEASE DATE: 10/01/19 /////////////////////////////////////////////////////////////////////////////////////////////
 
 Welcome! This is a webgl build of a character action controller I'm developing in Unity.
 With this project I hope to create a basic general character action controller template for use in future Unity projects.\
