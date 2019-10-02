@@ -11,6 +11,10 @@ Demo Link: https://spicygarlicalbacoreroll.github.io/characterActionControllerDe
 
 CHANGELOG:\
 
+VERSION 0.4.1\
+
+Fixed keyboard WASD movement, changed colors to be more in theme with Halloween \
+
 VERSION 0.4\
 
 Added coyote jump when jumping immediately within 3 seconds after walking off ledge. Have giant untouchable block for state machine testing purposes \
